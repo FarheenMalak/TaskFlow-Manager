@@ -1,55 +1,53 @@
-# 📝 TaskFlow Manager - Next.js Full Stack Application
+# TaskFlow Manager - Next.js Full Stack Application
 
-A modern, full-stack task management application built with Next.js 14, MongoDB, and Prisma. Create, update, delete, and track your tasks with a beautiful UI.
+A modern full-stack task management application built with Next.js 14, MongoDB, and Prisma.
 
-## ✨ Features
+## Features
 
-- ✅ **Create Tasks** - Add new tasks with title, description, and priority
-- 📝 **Update Tasks** - Edit task details or mark as complete/incomplete
-- 🗑️ **Delete Tasks** - Remove tasks you no longer need
-- 🔍 **Filter Tasks** - Filter by status (All, Pending, Completed)
-- 📱 **Responsive Design** - Works perfectly on desktop, tablet, and mobile
-- ⚡ **Real-time Updates** - Instant UI updates without page refresh
+- Create Tasks - Add new tasks with title, description, and priority
+- Update Tasks - Edit or mark tasks complete/incomplete
+- Delete Tasks - Remove unwanted tasks
+- Filter Tasks - View All / Pending / Completed tasks
+- Responsive Design - Works on all devices
+- Real-time Updates - Instant UI update
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |----------|------------|
-| **Framework** | Next.js 14 (App Router) |
-| **Database** | MongoDB |
-| **Styling** | Tailwind CSS |
-| **Deployment** | Vercel |
-| **Language** | JavaScript |
+| Framework | Next.js 14 (App Router) |
+| Database | MongoDB |
+| Styling | Tailwind CSS |
+| Deployment | Vercel |
+| Language | JavaScript |
 
-## 📋 Prerequisites
+## Prerequisites
 
-Before you begin, ensure you have the following installed:
-
-- Node.js 18.17 or later
+- Node.js 18+
 - npm / yarn / pnpm
 - Git
-- MongoDB database (local or cloud)
+- MongoDB database
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1. Clone the Repository
+### 1. Clone Repository
 
-```bash
+bash
 git clone https://github.com/FarheenMalak/TaskFlow-Manager.git
 cd TaskFlow-Manager
 
 ### 2. Install Dependencies
 
--npm install
+npm install
 
-### 3. Set Up Environment Variables
+### 3. Environment Setup
 
-Create a .env file in the root directory:
+Create .env file:
 
-env
 MONGODB_URI="mongodb+srv://username:password@cluster.mongodb.net/taskflow"
 
-### 4. Run Development Server
+### 4. Run Project 
 
-bash
 npm run dev
+Open in Browser
+http://localhost:3000
