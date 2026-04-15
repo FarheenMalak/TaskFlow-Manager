@@ -7,8 +7,7 @@ A modern, full-stack task management application built with Next.js 14, MongoDB,
 - ✅ **Create Tasks** - Add new tasks with title, description, and priority
 - 📝 **Update Tasks** - Edit task details or mark as complete/incomplete
 - 🗑️ **Delete Tasks** - Remove tasks you no longer need
-- 🎯 **Priority Levels** - High, Medium, Low priority with color coding
-- 🔍 **Filter Tasks** - Filter by status (All, Active, Completed) and priority
+- 🔍 **Filter Tasks** - Filter by status (All, Pending, Completed)
 - 📱 **Responsive Design** - Works perfectly on desktop, tablet, and mobile
 - ⚡ **Real-time Updates** - Instant UI updates without page refresh
 
@@ -18,7 +17,6 @@ A modern, full-stack task management application built with Next.js 14, MongoDB,
 |----------|------------|
 | **Framework** | Next.js 14 (App Router) |
 | **Database** | MongoDB |
-| **ORM** | Prisma with MongoDB |
 | **Styling** | Tailwind CSS |
 | **Deployment** | Vercel |
 | **Language** | JavaScript |
