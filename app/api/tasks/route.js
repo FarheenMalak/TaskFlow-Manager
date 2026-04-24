@@ -57,10 +57,19 @@ export async function POST(request) {
       );
     }
 
+    let priority = 'Medium';
+    try {
+      const { generatePriority } = await import('@/lib/gemini');
+      priority = await generatePriority(title, description);
+    } catch (geminiError) {
+      console.error('Priority generation failed, using default:', geminiError);
+    }
+
     const task = await Task.create({
       title,
       description,
       status: 'pending',
+      priority,
       userId: session.user.id
     });
 
