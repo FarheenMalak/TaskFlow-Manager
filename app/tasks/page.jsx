@@ -377,7 +377,7 @@ export default function TasksPage() {
             <Button
               onClick={() => handleGenerateSuggestions(true)}
               disabled={loadingEditSuggestions}
-              className="w-full bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white"
+              className="w-full bg-[#68530e] text-white"
             >
               {loadingEditSuggestions ? (
                 <>
@@ -395,7 +395,7 @@ export default function TasksPage() {
             {editSuggestions.length > 0 && (
               <div className="space-y-3 mt-4">
                 <h3 className="font-semibold text-gray-700 flex items-center gap-2">
-                  <Brain className="w-4 h-4 text-purple-600" />
+                  <Brain className="w-4 h-4 text-[#68530e]" />
                   AI Suggestions ({editSuggestions.length})
                 </h3>
                 <div className="space-y-3 max-h-60 overflow-y-auto">
@@ -496,12 +496,12 @@ export default function TasksPage() {
                 {loadingSuggestions ? (
                   <>
                     <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-                    <span className="pt-1">Generating...</span>
+                    Generating...
                   </>
                 ) : (
                   <>
                     <Brain className="w-4 h-4 mr-2" />
-                    <span className="pt-1" >Generate AI Suggestions</span>
+                    Generate AI Suggestions
                   </>
                 )}
               </Button>

@@ -531,7 +531,7 @@ export default function DashboardPage() {
                 <Button
                   variant="link"
                   onClick={() => setOpenCreateModal(true)}
-                  className="text-purple-600 mt-2"
+                  className="text-[#68530e] mt-2"
                 >
                   Create your first task
                 </Button>
